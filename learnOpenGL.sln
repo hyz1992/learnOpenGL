@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 Test_1", "projects\01 Test_1\01 Test_1.vcxproj", "{4B998D4B-5920-4DCE-92F5-900D158F3723}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 两个shader", "projects\02 两个shader\02 两个shader.vcxproj", "{E08C704B-7343-47C8-BBFA-3986638B9B4A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 3d", "projects\03 3d\03 3d.vcxproj", "{C123A760-2DA1-4BED-AD78-D28290A16693}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 光照基础", "projects\04 光照基础\04 光照基础.vcxproj", "{78AEEE0E-57B1-43EC-B869-F9C7EE903217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B998D4B-5920-4DCE-92F5-900D158F3723}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B998D4B-5920-4DCE-92F5-900D158F3723}.Debug|Win32.Build.0 = Debug|Win32
+		{4B998D4B-5920-4DCE-92F5-900D158F3723}.Release|Win32.ActiveCfg = Release|Win32
+		{4B998D4B-5920-4DCE-92F5-900D158F3723}.Release|Win32.Build.0 = Release|Win32
+		{E08C704B-7343-47C8-BBFA-3986638B9B4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E08C704B-7343-47C8-BBFA-3986638B9B4A}.Debug|Win32.Build.0 = Debug|Win32
+		{E08C704B-7343-47C8-BBFA-3986638B9B4A}.Release|Win32.ActiveCfg = Release|Win32
+		{E08C704B-7343-47C8-BBFA-3986638B9B4A}.Release|Win32.Build.0 = Release|Win32
+		{C123A760-2DA1-4BED-AD78-D28290A16693}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C123A760-2DA1-4BED-AD78-D28290A16693}.Debug|Win32.Build.0 = Debug|Win32
+		{C123A760-2DA1-4BED-AD78-D28290A16693}.Release|Win32.ActiveCfg = Release|Win32
+		{C123A760-2DA1-4BED-AD78-D28290A16693}.Release|Win32.Build.0 = Release|Win32
+		{78AEEE0E-57B1-43EC-B869-F9C7EE903217}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78AEEE0E-57B1-43EC-B869-F9C7EE903217}.Debug|Win32.Build.0 = Debug|Win32
+		{78AEEE0E-57B1-43EC-B869-F9C7EE903217}.Release|Win32.ActiveCfg = Release|Win32
+		{78AEEE0E-57B1-43EC-B869-F9C7EE903217}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

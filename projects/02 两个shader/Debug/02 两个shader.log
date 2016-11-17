@@ -1,0 +1,17 @@
+﻿生成启动时间为 2016/11/17 15:13:19。
+     1>项目“E:\myTest\learnOpenGL\projects\02 两个shader\02 两个shader.vcxproj”在节点 3 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\myTest\learnOpenGL\\external\ /IE:\myTest\learnOpenGL\\external\SOIL\include /IE:\myTest\learnOpenGL\\external\glfw\include /IE:\myTest\learnOpenGL\\external\glew\include /IE:\myTest\learnOpenGL\\source\common\src /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\source\02 两个shader\src\源.cpp"
+         源.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myTest\learnOpenGL\\build\02 两个shader.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\myTest\learnOpenGL\\external\glew\lib /LIBPATH:E:\myTest\learnOpenGL\\external\glfw\lib /LIBPATH:E:\myTest\learnOpenGL\\external\SOIL\lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\myTest\learnOpenGL\\build\02 两个shader.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myTest\learnOpenGL\\build\02 两个shader.lib" /MACHINE:X86 "Debug\源.obj"
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\myTest\learnOpenGL\build\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         02 两个shader.vcxproj -> E:\myTest\learnOpenGL\\build\02 两个shader.exe
+     1>已完成生成项目“E:\myTest\learnOpenGL\projects\02 两个shader\02 两个shader.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.59

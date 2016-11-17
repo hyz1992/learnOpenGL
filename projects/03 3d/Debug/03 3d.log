@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/11/17 15:17:12。
+     1>项目“E:\myTest\learnOpenGL\projects\03 3d\03 3d.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\myTest\learnOpenGL\\external\ /IE:\myTest\learnOpenGL\\external\SOIL\include /IE:\myTest\learnOpenGL\\external\glfw\include /IE:\myTest\learnOpenGL\\external\glew\include /IE:\myTest\learnOpenGL\\source\common\src /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\source\03 3d\src\源.cpp"
+         源.cpp
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(203): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(243): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(300): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(301): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(305): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(306): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(307): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(308): warning C4244: “=”: 从“double”转换到“GLfloat”，可能丢失数据
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(310): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+     1>e:\mytest\learnopengl\source\03 3d\src\源.cpp(333): warning C4244: “-=”: 从“double”转换到“GLfloat”，可能丢失数据
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myTest\learnOpenGL\\build\03 3d.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\myTest\learnOpenGL\\external\glew\lib /LIBPATH:E:\myTest\learnOpenGL\\external\glfw\lib /LIBPATH:E:\myTest\learnOpenGL\\external\SOIL\lib glfw3.lib opengl32.lib glew32s.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\myTest\learnOpenGL\\build\03 3d.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myTest\learnOpenGL\\build\03 3d.lib" /MACHINE:X86 "Debug\源.obj"
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\myTest\learnOpenGL\build\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         03 3d.vcxproj -> E:\myTest\learnOpenGL\\build\03 3d.exe
+     1>已完成生成项目“E:\myTest\learnOpenGL\projects\03 3d\03 3d.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.49
