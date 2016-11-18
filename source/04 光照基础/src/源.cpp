@@ -181,6 +181,8 @@ int main()
 
 		GLint lightPosLoc = glGetUniformLocation(objectShader.Program, "lightPos");
 		glUniform3f(lightPosLoc, lightPos.x, lightPos.y, lightPos.z); //给片段着色器传入光源位置
+		lightPos.x = 1.0f + sin(glfwGetTime()) * 2.0f;
+		lightPos.y = sin(glfwGetTime() / 2.0f) * 1.0f;
 
 		GLint viewPosLoc = glGetUniformLocation(objectShader.Program, "viewPos");
 		glUniform3f(viewPosLoc, camera.Position.x, camera.Position.y, camera.Position.z);//传入摄像机位置
